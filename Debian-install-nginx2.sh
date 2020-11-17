@@ -4,7 +4,7 @@
 # #安装依赖环境
 # apt-get install build-essential libpcre3 libpcre3-dev libssl-dev git zlib1g-dev -y
 # #添加用户
-# adduser --system --home /nonexistent --shell /bin/false --no-create-home --gecos "nginx user" --group --disabled-login --disabled-password nginx
+# adduser --system --home /nonexistent --shell /bin/false --no-create-home --gecos "nginx2 user" --group --disabled-login --disabled-password nginx2
 # cd ~ 
 # #取得模块文件及Nginx源码
 # git clone git://github.com/FRiCKLE/ngx_cache_purge.git
