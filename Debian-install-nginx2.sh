@@ -26,7 +26,7 @@ mkdir /var/cache/nginx2 -p
 mkdir /etc/nginx2/vhost -p
 #添加虚拟主机支持
 cp /etc/nginx2/nginx.conf /etc/nginx2/nginx.conf.bak
-wget -q -O nginx.conf https://raw.githubusercontent.com/zunsking/Debian-Install-Nginx/master/nginx.conf
+wget -q -O nginx.conf https://github.com/zunsking/Debian-Install-Nginx2/edit/main/nginx.conf
 \cp nginx.conf /etc/nginx2/
 #注册系统服务
 cat >/lib/systemd/system/nginx2.service << EOF
