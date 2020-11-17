@@ -4,7 +4,7 @@ Debian 9/10 安装第二个Nginx
 建议在screen中执行，安装screen：
 <pre>
 apt-get install screen -y
-screen -S nginx
+screen -S nginx2
 </pre>
 
 再执行Nginx一键安装脚本
